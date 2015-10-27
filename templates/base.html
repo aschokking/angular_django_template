@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angularific</title>
+  <!-- compressed tags is created by Django Pipeline.  -->
+  {% load pipeline  %}
+
+  <!-- Include CSS files -->
+  {% stylesheet 'libraries' %}
+
+  <!-- Include JavaScript files -->
+  {% javascript 'libraries' %}
+</head>
+{% verbatim %}
+<body>
+  <div ng-view class="container-fluid"></div>
+</body>
+{% endverbatim %}
+</html>

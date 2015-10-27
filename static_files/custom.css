@@ -1,0 +1,11 @@
+body {
+	margin: 20px;
+}
+
+.v-margin {
+	margin-top: 10px;
+}
+
+.entry_list .mutual_item {
+	background-color: green;
+}
